@@ -41,6 +41,12 @@ A simple GUI application that lets you copy files with specific extensions from 
    pip install -r requirements.txt
    ```
 
+Note for Linux users: If Tkinter is not included in your Python installation, you may need to install it using your distribution's package manager, for example:
+- Ubuntu/Debian: `sudo apt-get install python3-tk`
+- Fedora: `sudo dnf install python3-tkinter`
+- Arch Linux: `sudo pacman -S tk`
+
+
 3. Run the application:
    ```
    python file-copier-ui.py
